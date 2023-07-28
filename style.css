@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -123,13 +127,6 @@ p {
   justify-content: center;
 }
 
-.college-scholars img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px 8px 0 0;
-}
-
 .student-info {
   width: 200px;
   border-style: solid;
@@ -138,6 +135,14 @@ p {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   cursor: pointer;
+}
+
+
+.college-scholars img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
 
 .student-info a {

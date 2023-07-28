@@ -139,7 +139,7 @@
           <p class="content">message me to get is fixed right away.</p>
         </div>
         <div class="right-section">
-          <button class="message-button">Contact me!</button>
+          <button class="message-button" id="message">Contact me!</button>
         </div>
       </div>
     </div>
@@ -148,5 +148,15 @@
     </footer>
   </div>
 </body>
+  <script>
 
+    const button = document.getElementById("message");
+
+    button.addEventListener("click", notif);
+
+    function notif() {
+      alert("Function not Available");
+    }
+
+  </script>
 </html>
